@@ -42,12 +42,12 @@ public class Orcamento {
 		return quantidadeItens;
 	}
 
-	public SituacaoOrcamento getSituacaoOrcamento() {
-		return situacaoOrcamento;
+	public void setSituacao(SituacaoOrcamento situacao) {
+		this.situacao = situacao;
 	}
 
-	public void setSituacaoOrcamento(SituacaoOrcamento situacaoOrcamento) {
-		this.situacaoOrcamento = situacaoOrcamento;
+	public SituacaoOrcamento getSituacao() {
+		return situacao;
 	}
 
 }
